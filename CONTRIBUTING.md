@@ -2,7 +2,7 @@
 Please follow these guidelines to maintain consistency across Proforce-Galaxies projects.
 
 ## 1️⃣ Code of Conduct
-All contributors must follow the **Proforce-Galaxies Code of Conduct** (see `organization-wiki/security-policy.md`).
+All contributors must follow the **Proforce-Galaxies Code of Conduct** (see [here](organization-wiki/security-policy.md)).
 
 ## 2️⃣ Branch Naming Convention
 Format:
@@ -26,28 +26,35 @@ Examples:
 ---
 
 ## 4️⃣ Development Process
-1. Fork or branch from `main`.
-2. Make your changes in a dedicated branch.
+1. Fork the repo or create a feature branch from `main`.
+2. Make your changes in a dedicated branch and commit.
 3. Ensure all tests pass locally.
-4. Submit a pull request using the PR template.
+4. Push the branch and submit a pull request using the PR template.
 
 ---
 
-## 5️⃣ Code Style
+## 5️⃣ Code Standards
 - Use the language-specific linting rules.
 - Keep functions small and single-purpose.
+- Follow our [Git Workflow](../tools-workflow/git-workflow.md).
+- Use meaningful commit messages (Conventional Commits).
+- Keep PRs focused and under **500 lines changed** when possible.
 - Comment complex logic.
 
 ---
 
 ## 6️⃣ Pull Request Review
-- At least 1 Unit Lead must approve.
-- Resolve all review comments before merging.
+- At least 1 Unit Lead must approve before merging.
+- Address all review comments and mark conversations resolved.
 - No direct merges to `main`.
 
 ---
 
-## 7️⃣ Licensing
+## 7️⃣ Testing
+- Add or update unit tests for your changes.
+- Ensure all tests pass before requesting a review.
+
+## 8️⃣ Licensing
 By contributing, you agree that your contributions are licensed under the same license as the repository.
 
 ---
