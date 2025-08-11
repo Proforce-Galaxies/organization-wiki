@@ -8,10 +8,9 @@ This repository serves as our **internal wiki** for guidelines, processes, templ
 1. [Team & Repo Creation Guidelines](team-repo-guidelines.md)
 2. [Collaboration Best Practices](collaboration-guide.md)
 3. [Security & Access Control Policy](security-policy.md)
-4. [Tooling & Workflows](tools-workflows/README.md)
 
 ## 🛠 Templates
-- [Contribution Guidelines Template](templates/CONTRIBUTING-template.md)
+- [Contribution Guidelines Template](templates/CONTRIBUTING.md)
 - [CODEOWNERS Template](templates/CODEOWNERS-template.md)
 - [Pull Request Template](templates/pull-request-template.md)
 
