@@ -4,7 +4,10 @@ This repository serves as our **internal wiki** for guidelines, processes, templ
 
 ##  Quick Start
 New team in Proforce Galaxies?
-- [Follow these steps to prepare your team for setup](quick_start.md)
+- Follow these steps to prepare your team for setup —
+[Click here](quick_start.md)
+
+---
 
 ## 📚 Table of Contents
 
