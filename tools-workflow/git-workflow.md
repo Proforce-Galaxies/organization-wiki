@@ -48,11 +48,18 @@ git pull origin develop
 
 ⏳ **Keep branches short-lived** → finish and merge quickly.  
 
-📐 **Prefer rebase over merge when syncing feature branches:**
+📐 **If working alone, prefer rebase over merge when syncing feature branches:**
 ```
 git checkout feature/add-login-page
 git fetch origin
 git rebase origin/develop
+```
+
+**Else, better to merge**
+```
+git checkout feature/add-login-page
+git fetch origin
+git merge origin/develop
 ```
 
 ---
