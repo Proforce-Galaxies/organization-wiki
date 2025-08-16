@@ -25,3 +25,15 @@ Closes #(issue)
 
 ## Additional Notes
 (Optional: anything reviewers should be aware of)
+
+
+# Tips when creating PRs
+1. Write small pull requests
+   - Easier to review and merge
+   - Less room for bugs
+   - Clear history of changes
+2. Review your own PRs first
+   - Review, build, and test your PRs before submitting it
+3. Provide context and guidance
+   - Write clear titles and descriptions
+   - Include purpose, overview of changes, and links to any additional context like issues, tickets, or previous conversations.
