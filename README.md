@@ -2,6 +2,8 @@
 Welcome to the central documentation hub for **Proforce Galaxies**.  
 This repository serves as our **internal wiki** for guidelines, processes, templates, and best practices all Proforce-Galaxies units.
 
+PLEASE FOLLOW ALL GUIDELINES IN THIS WIKI TO HELP KEEP PFGALAXIES ORGANIZED.
+
 ##  Quick Start
 New team in Proforce Galaxies?
 - Follow these steps to prepare your team for setup —
