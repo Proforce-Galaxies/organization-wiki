@@ -20,7 +20,7 @@ A clear workflow for safe and efficient collaboration on our projects.
 Create a new branch for your work.
 
 ```
-git checkout develop
+git checkout develop  # or main if you branch from main
 git pull origin develop
 git checkout -b feature/add-login-page
 ```
@@ -43,16 +43,23 @@ Once tested and approved by Unit Leads, `develop` is merged into `main` and tagg
 🔄 **Always pull the latest changes before starting work:**
 ```
 git fetch origin
-git pull origin develop
+git pull origin develop  # or main if you branch from main
 ```
 
 ⏳ **Keep branches short-lived** → finish and merge quickly.  
 
-📐 **Prefer rebase over merge when syncing feature branches:**
+📐 **If working alone, prefer rebase over merge when syncing feature branches:**
 ```
 git checkout feature/add-login-page
 git fetch origin
 git rebase origin/develop
+```
+
+**Else, better to merge**
+```
+git checkout feature/add-login-page
+git fetch origin
+git merge origin/develop
 ```
 
 ---
