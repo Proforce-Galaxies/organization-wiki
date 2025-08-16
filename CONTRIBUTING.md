@@ -36,8 +36,8 @@ Examples:
 ## 5️⃣ Code Standards
 - Use the language-specific linting rules.
 - Keep functions small and single-purpose.
-- Follow our [Git Workflow](../tools-workflow/git-workflow.md).
-- Use meaningful commit messages (Conventional Commits).
+- Follow our [Git Workflow](../main/tools-workflow/git-workflow.md).
+- Use meaningful commit messages ([Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)).
 - Keep PRs focused and under **500 lines changed** when possible.
 - Comment complex logic.
 
