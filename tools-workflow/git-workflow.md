@@ -43,7 +43,7 @@ Once tested and approved by Unit Leads, `develop` is merged into `main` and tagg
 🔄 **Always pull the latest changes before starting work:**
 ```
 git fetch origin
-git pull origin develop  # or main if you branch from main
+git pull origin develop --no-rebase  # or main if you branch from main
 ```
 
 ⏳ **Keep branches short-lived** → finish and merge quickly.  
@@ -61,6 +61,8 @@ git checkout feature/add-login-page
 git fetch origin
 git merge origin/develop
 ```
+For shared branches (main, develop):
+- Always pull (merge or rebase) before pushing. Never force push.
 
 ---
 
