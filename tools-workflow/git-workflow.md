@@ -134,6 +134,6 @@ git branch -d feature/<your-feature-name>
 ✅ Prevents overwriting teammates’ work.  
 ✅ Keeps work organized with isolated feature branches.  
 ✅ Simplifies reviews with smaller, focused PRs.  
-✅ Ensures `main` always stays production-ready.  
+✅ E nsures `main` always stays production-ready.  
 
 ---
