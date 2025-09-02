@@ -1,6 +1,18 @@
+
+---
+## Quick Start for New Members
+### Request Permission From The Organization Owner
+- Contact an **Org Admin** to create your user account on GitHub.
+- Create a **Username** with the format:
+  - "PFG-[your first name or last name]" (whichever is available)
+- Request an invitation to the organization from the Org Admin.
+- Accept the invitation and join the organization.
+- Request access to required teams and repositories.
+- **Thoroughly read and follow all guidelines and workflows stated in the organization-wiki.**
+
 ---
 
-## 🚀 Quick Start for New Units
+## Quick Start for New Units
 
 This checklist will guide any new team (unit) through setting up their workspace in the Proforce Galaxies organization.
 
@@ -48,7 +60,7 @@ This checklist will guide any new team (unit) through setting up their workspace
 ---
 
 ### 6️⃣ Establish Your Workflow
-- Follow the [Git Workflow Guide](tools-workflows/git-workflow.md) for branch naming and PR processes.
+- Follow the [Git Workflow Guide](tools-workflow/git-workflow.md) for branch naming and PR processes.
 - Document any **team-specific processes** in your own repo’s `README.md`.
 
 ---
