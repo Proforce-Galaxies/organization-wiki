@@ -33,6 +33,7 @@ Guides and standards for our technical processes.
 - [Git Workflow](tools-workflow/git-workflow.md) — Branch naming, merge rules, and best practices.
 - [CI/CD Pipeline](tools-workflow/ci-cd-pipeline.md) — Build, test, and deployment pipeline standards.
 - [Code Review Process](tools-workflow/code-review-process.md) — Steps and checklists for reviewing code.
+- [Sparse Checkout Process](tools-workflow/git_sparse_checkout.md) — Steps for pulling specific directories and subdirectories to local machine.
 
 ---
 
