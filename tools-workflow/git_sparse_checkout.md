@@ -80,12 +80,12 @@ Use a descriptive branch name (e.g., `update/EPS-circuitry` or `team/backend-upd
 Edit files in your sparse-checked-out directories as needed.
 
 ### Step 2: Stage Your Changes
-**Important**: Ensure you are in the repository root directory (not inside a subdirectory).
+**Important**:  Open your Terminal and ensure you are in the repository root directory (not inside a subdirectory).
 For example:
 ✅ Correct location: `C:\Users\USER\Documents\Projects\REPO_NAME\`  
 ❌ Incorrect location: `C:\Users\USER\Documents\Projects\REPO_NAME\sub-directory\`
 
-Stage all changes:
+Stage all changes (only those in your sparsed folder):
 ```bash
 git add .
 ```
@@ -93,6 +93,13 @@ git add .
 Or stage specific files:
 ```bash
 git add path/to/file
+```
+
+OR
+
+Stage all files and folders (even those outside your sparse checkout) **(NOT RECOMMENDED)**
+```bash
+git add --sparse .
 ```
 
 ### Step 3: Commit Your Changes
@@ -110,7 +117,21 @@ or
 git commit -m "Update EPS circuitry"
 ```
 
-### Step 4: Push to Remote
+## 🔄 **ALWAYS PULL THE LATEST CHANGES BEFORE STARTING WORK:**
+### Step 4: Update your LOCAL repo with remote repo
+**Safer step (recommended):**
+```bash
+git fetch origin
+git merge origin <branch name>
+```
+OR
+
+**Faster Step**
+```bash
+git pull origin <branch name> --no-rebase  # or "main" if you branch from main
+```
+
+### Step 5: Push to Remote
 Push your changes to the remote repository:
 
 ```bash
