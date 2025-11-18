@@ -85,7 +85,7 @@ For example:
 ✅ Correct location: `C:\Users\USER\Documents\Projects\REPO_NAME\`  
 ❌ Incorrect location: `C:\Users\USER\Documents\Projects\REPO_NAME\sub-directory\`
 
-Stage all changes:
+Stage all changes (only those in your sparsed folder):
 ```bash
 git add .
 ```
@@ -93,6 +93,13 @@ git add .
 Or stage specific files:
 ```bash
 git add path/to/file
+```
+
+OR
+
+Stage all files and folders (even those outside your sparse checkout) **(NOT RECOMMENDED)**
+```bash
+git add --sparse .
 ```
 
 ### Step 3: Commit Your Changes
